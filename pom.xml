@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.liblog</groupId>
+    <artifactId>liblog</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>liblog</name>
+    <description>liblog</description>
+    <packaging>pom</packaging>
+    <modules>
+<!--        文章模块-->
+        <module>liblog-artical</module>
+<!--        权限模块-->
+        <module>liblog-auth</module>
+<!--        公共模块-->
+        <module>liblog-common</module>
+<!--        网关模块-->
+        <module>liblog-gateway</module>
+<!--        日志模块-->
+        <module>liblog-log</module>
+<!--        消息模块-->
+        <module>liblog-message</module>
+<!--        查询服务模块-->
+        <module>liblog-search</module>
+<!--        系统模块-->
+        <module>liblog-system</module>
+<!--        用户模块-->
+        <module>liblog-user</module>
+
+    </modules>
+
+</project>
